@@ -511,12 +511,6 @@ Other Changes and Additions
 Bug Fixes
 ^^^^^^^^^
 
-- ``astropy.config``
-
-- ``astropy.constants``
-
-- ``astropy.convolution``
-
 - ``astropy.coordinates``
 
   - The ``Distance`` class has been fixed to no longer rely on the deprecated
@@ -560,12 +554,6 @@ Bug Fixes
 
   - Added support for the ``RICE_ONE`` compression type synonym. [#3115]
 
-- ``astropy.io.misc``
-
-- ``astropy.io.registry``
-
-- ``astropy.io.votable``
-
 - ``astropy.modeling``
 
   - Fixed a test failure on Debian/PowerPC and Debian/s390x. [#2708]
@@ -576,10 +564,6 @@ Bug Fixes
     ``prepare_outputs`` methods).  But as long as all outputs can be assumed
     to have a shape determined from the broadcast of all inputs with all
     parameters then this can be used safely. [#3250]
-
-- ``astropy.nddata``
-
-- ``astropy.stats``
 
 - ``astropy.table``
 
@@ -596,8 +580,6 @@ Bug Fixes
 
   - Improved the warning message when unable to aggregate non-numeric
     columns. [#2700]
-
-- ``astropy.time``
 
 - ``astropy.units``
 
